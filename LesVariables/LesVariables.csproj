@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>LesVariables.Program</StartupObject>
+    <ApplicationIcon>Autheur.ico</ApplicationIcon>
+    <PlatformTarget>x86</PlatformTarget>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Autheur.ico" />
+  </ItemGroup>
+
+</Project>
