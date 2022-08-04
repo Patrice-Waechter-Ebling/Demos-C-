@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>001_Main.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="001_Main.ico" />
+    <None Remove="bandeau-page-cegep-vert.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="001_Main.ico" />
+    <Resource Include="bandeau-page-cegep-vert.jpg" />
+  </ItemGroup>
+
+</Project>

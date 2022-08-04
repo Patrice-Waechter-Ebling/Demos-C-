@@ -1,0 +1,35 @@
+﻿<Window x:Class="Laboratoire5.AjouterAuMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratoire5"
+        mc:Ignorable="d"
+        Title="Ajouter au menu..." Height="280" Width="480" Background="Gainsboro" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" Activated="Window_Activated">
+    <Grid Cursor="Hand">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="442*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43*">
+
+            </RowDefinition>
+            <RowDefinition Height="391*">
+
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="ajoutermenu" Content="Ajouter au menu" HorizontalAlignment="Left" Margin="185,162,0,0" VerticalAlignment="Top" Height="25" Width="100" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Titre" HorizontalAlignment="Left" Margin="18,26,0,0" VerticalAlignment="Top" Height="26" Width="34" Grid.Column="1" Grid.RowSpan="2"/>
+        <TextBox Name="addNom" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="18" Margin="54,26,0,0" Grid.Column="1" Grid.RowSpan="2"/>
+        <Label Content="Prix" HorizontalAlignment="Left" Margin="22,43,0,0" VerticalAlignment="Top" Height="26" Width="29" Grid.Row="1" Grid.Column="1"/>
+        <TextBox Name="addPrix" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="18" Margin="54,47,0,0" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="Image" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" Height="26" Width="43" Grid.Row="1" Grid.Column="1"/>
+        <TextBox Name="addImage" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="18" Margin="54,23,0,0" Grid.Row="1" Grid.Column="1"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="146,41,0,0" VerticalAlignment="Top" Height="26" Width="22"  Grid.Row="1" Grid.Column="1"/>
+        <TextBox Name="addID" HorizontalAlignment="Left" Margin="169,47,0,0" VerticalAlignment="Top" Width="54" Height="18" Grid.Column="1" Grid.Row="1"/>
+        <Button Grid.Column="1" Content="Charger" HorizontalAlignment="Left" Margin="318,107,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click"/>
+        <Image Name="logo" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="286,1,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100">
+        </Image>
+    </Grid>
+</Window>
