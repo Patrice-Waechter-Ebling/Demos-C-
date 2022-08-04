@@ -1,0 +1,24 @@
+﻿<Window x:Class="Exercices_20220621_E2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercices_20220621_E2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="466" Width="800" MouseMove="Window_MouseMove">
+    <Grid Cursor="Hand">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="curseur2" HorizontalAlignment="Center"  Source="/00000073.CUR" ForceCursor="True" IsHitTestVisible="False" Margin="0,4,0,-6" Width="400" Grid.Column="1">
+            <Image.OpacityMask>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+
+    </Grid>
+</Window>
