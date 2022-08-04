@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <BaseOutputPath>.\</BaseOutputPath>
+    <ApplicationIcon>patrice.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <NeutralLanguage>fr-CA</NeutralLanguage>
+    <AssemblyVersion>1.2.0.6</AssemblyVersion>
+    <StartupObject>Laboratoire5.App</StartupObject>
+    <Company>Patrice Waechter-Ebling</Company>
+    <Description>Développement du laboratoire 5 à son terme pour un faire un logiciel fonctionnel</Description>
+    <Copyright>Patrice Waechter-Ebling</Copyright>
+    <FileVersion>1.2.1.6</FileVersion>
+    <Platforms>x86;x64</Platforms>
+  </PropertyGroup>
+
+
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="patrice.ico" />
+  </ItemGroup>
+
+</Project>
