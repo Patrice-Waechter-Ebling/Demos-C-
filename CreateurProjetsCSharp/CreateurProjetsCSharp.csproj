@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Autheur.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Company></Company>
+    <Authors>Patrice Waechter-Ebling</Authors>
+    <Version>1.0.1.3</Version>
+    <Copyright>Patrice Waechter-Ebling 2022</Copyright>
+    <PackageIcon>EntrePotes.ico</PackageIcon>
+    <NeutralLanguage>fr-CA</NeutralLanguage>
+    <Platforms>AnyCPU;x64</Platforms>
+    <UseWPF>True</UseWPF>
+    <StartupObject>CreateurProjetsCSharp.Program</StartupObject>
+    <RootNamespace />
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageProjectUrl>https://github.com/Patrice-Waechter-Ebling/CreateurProjetsCSharp_CS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Patrice-Waechter-Ebling/CreateurProjetsCSharp_CS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Patrice-Waechter-Ebling;CreateurProjetsCSharp_CS</PackageTags>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Autheur.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\C++\CompilateurCS\CompilateurCS\EntrePotes.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
