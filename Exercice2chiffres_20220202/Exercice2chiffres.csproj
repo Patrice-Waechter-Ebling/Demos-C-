@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>pwe.ico</ApplicationIcon>
+    <RootNamespace>Exercice_Comparateur2chiffres</RootNamespace>
+    <AssemblyName>Exercice_Comparateur2chiffres</AssemblyName>
+    <StartupObject>Exercice2chiffres.Program</StartupObject>
+  </PropertyGroup>
+
+</Project>

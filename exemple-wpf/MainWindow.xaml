@@ -1,0 +1,16 @@
+﻿<Window x:Class="exemple_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exemple_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="18,25,0,0" VerticalAlignment="Top" Width="501" Source="patate.gif"/>
+        <RadioButton Name="patate1Radio" Content="patate1" HorizontalAlignment="Left" Margin="273,296,0,0" VerticalAlignment="Top" Checked="patate1Radio_Checked"/>
+        <RadioButton Name="patate2Radio" Content="patate2" HorizontalAlignment="Left" Margin="423,296,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="quellePatate" HorizontalAlignment="Center" Margin="0,147,0,0" Text="Quelle patate?" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32"/>
+
+    </Grid>
+</Window>
