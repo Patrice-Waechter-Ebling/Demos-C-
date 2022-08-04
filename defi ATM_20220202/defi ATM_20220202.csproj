@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>ico132.ico</ApplicationIcon>
+    <PlatformTarget>x86</PlatformTarget>
+    <Authors>Patrice Waechter-Ebling</Authors>
+    <Copyright>Patrice Waechter-Ebling 2022</Copyright>
+    <PackageIcon>Logo Paquetage.jpg</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Patrice-Waechter-Ebling/defi_ATM_20220202</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Realse\**" />
+    <EmbeddedResource Remove="Realse\**" />
+    <None Remove="Realse\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ico132.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Codes Sources\Logo Paquetage.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
