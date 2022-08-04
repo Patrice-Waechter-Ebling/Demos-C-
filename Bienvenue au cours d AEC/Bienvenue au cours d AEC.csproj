@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Bienvenue_au_cours_d_AEC</RootNamespace>
+    <ApplicationIcon>Autheur.ico</ApplicationIcon>
+    <Configurations>Debug;Release;Exemples</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Autheur.ico" />
+  </ItemGroup>
+
+</Project>
