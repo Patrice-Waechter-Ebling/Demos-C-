@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Laboratoire5</name>
+    </assembly>
+    <members>
+        <member name="T:Laboratoire5.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Laboratoire5.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Laboratoire5.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Laboratoire5.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Laboratoire5.MainWindow.InitialiseMenu">
+            Crée nos objets « Item » et ajoute au menu (liste d'items)
+        </member>
+        <member name="M:Laboratoire5.MainWindow.InitialiseGrille">
+            Créer les objets « Button » et les ajoute à notre grille (à ses enfants)
+        </member>
+        <member name="M:Laboratoire5.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
