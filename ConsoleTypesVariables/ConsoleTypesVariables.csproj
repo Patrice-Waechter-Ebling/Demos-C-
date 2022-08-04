@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>Autheur.ico</ApplicationIcon>
+    <PlatformTarget>x86</PlatformTarget>
+    <Configurations>Debug;Release;Exemples</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Autheur.ico" />
+  </ItemGroup>
+
+</Project>
