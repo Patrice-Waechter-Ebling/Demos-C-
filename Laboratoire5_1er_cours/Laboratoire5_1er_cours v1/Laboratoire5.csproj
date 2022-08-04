@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <BaseOutputPath>.\</BaseOutputPath>
+    <ApplicationIcon>swf2exe.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <NeutralLanguage>fr-CA</NeutralLanguage>
+    <AssemblyVersion>1.0.0.6</AssemblyVersion>
+    <StartupObject>Laboratoire5.App</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="swf2exe.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Laboratoire5_1er_cours v1.zip" />
+    <None Include="Laboratoire5_v1.exe" />
+  </ItemGroup>
+
+</Project>

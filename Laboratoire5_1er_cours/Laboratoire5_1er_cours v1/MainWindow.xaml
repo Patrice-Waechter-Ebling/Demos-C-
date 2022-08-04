@@ -1,0 +1,39 @@
+﻿<Window x:Class="Laboratoire5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Laboratoire5_1er_cours" Height="450" Width="800" ResizeMode="NoResize">
+    <DockPanel GotFocus="DockPanel_GotFocus" Margin="0,0,0,-9">
+        <Menu DockPanel.Dock="Top" Height="30">
+            <MenuItem Height="30" Header="Ajouter au menu" Click="MenuItem_Click_1"></MenuItem>
+            <MenuItem Height="30" Header="Reset" Click="MenuItem_Click"></MenuItem>
+        </Menu>
+        <StackPanel DockPanel.Dock="Right" Orientation="Vertical" Width="160">
+            <Label Name="Statut" Content="Panier" VerticalAlignment="Top"/>
+            <ListBox Name="listbox1" Height="300" Margin="10">
+                
+            </ListBox>
+            <Button Height="50" Content="Commander" FontFamily="Arial" FontSize="18" FontWeight="ExtraBold" Background="LightGray" Foreground="SlateGray" BorderThickness="1" Click="Button_Click" >
+                <Button.Style>
+                    <Style/>
+                </Button.Style>
+
+            </Button>
+        </StackPanel>
+        <Grid Name="GrilleMenu" DockPanel.Dock="Left" Margin="50">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </DockPanel>
+</Window>
