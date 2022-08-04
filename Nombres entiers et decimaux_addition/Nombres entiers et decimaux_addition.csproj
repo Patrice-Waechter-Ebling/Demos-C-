@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Nombres_entiers_et_decimaux_addition</RootNamespace>
+    <PlatformTarget>x86</PlatformTarget>
+    <ApplicationIcon>Autheur.ico</ApplicationIcon>
+    <Configurations>Debug;Release;Exemples</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Autheur.ico" />
+  </ItemGroup>
+
+</Project>
