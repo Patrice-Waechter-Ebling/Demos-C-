@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>CS.ico</ApplicationIcon>
+    <Authors>Patrice Waechter-Ebling</Authors>
+    <Copyright>Patrice Waechter-Ebling 2022</Copyright>
+    <PackageIcon>CS.ico</PackageIcon>
+    <PackageIconUrl />
+    <NeutralLanguage>fr-CA</NeutralLanguage>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <Company>Etudiant Cegep Granby</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="CS.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

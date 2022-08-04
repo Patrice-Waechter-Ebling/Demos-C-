@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+   <PropertyGroup>
+     <OutputType>Exe</OutputType>
+     <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>SURFACECERCLE</RootNamespace>
+        <Platforms>AnyCPU;x64</Platforms>
+        <DebugType>none</DebugType>
+      </PropertyGroup>
+   <ItemGroup>
+     <Compile Remove="AssemblyInfo.cs" />
+   </ItemGroup>
+    </Project>
